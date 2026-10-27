@@ -6,7 +6,9 @@
 
 <p align="center">
   Un programa sencillo para reparar rápido tus controladores, revisar el Wi‑Fi, el disco y las impresoras en GNU/Linux.<br>
-  <i>A simple app to quickly fix drivers, check Wi‑Fi, disk and printers on GNU/Linux.</i>
+  <i>A simple app to quickly fix drivers, check Wi‑Fi, disk and printers on GNU/Linux.
+  Hecho en Ecuador.
+  </i>
 </p>
 
 <p align="center">
