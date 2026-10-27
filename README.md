@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/logo.png" width="96" alt="Doctor Linux">
+  <img src="docs/logo.png" width="150" alt="Doctor Linux">
 </p>
 
 <h1 align="center">Doctor Linux Repair Tool</h1>
