@@ -5,45 +5,45 @@
 <h1 align="center">Doctor Linux Repair Tool</h1>
 
 <p align="center">
-  Простая программа, чтобы быстро починить драйверы, проверить Wi‑Fi, диск и принтеры на GNU/Linux.<br>
+  Un programa sencillo para reparar rápido tus controladores, revisar el Wi‑Fi, el disco y las impresoras en GNU/Linux.<br>
   <i>A simple app to quickly fix drivers, check Wi‑Fi, disk and printers on GNU/Linux.</i>
 </p>
 
 <p align="center">
   <a href="https://github.com/edwards-tech/Doctor-Linux-Repair-Tool/releases"><img src="https://img.shields.io/github/v/release/edwards-tech/Doctor-Linux-Repair-Tool?label=.deb&color=2ea043" alt="Release"></a>
-  <img src="https://img.shields.io/badge/Linux-only-FCC624?logo=linux&logoColor=black" alt="Linux only">
-  <img src="https://img.shields.io/badge/package-.deb%20amd64-A81D33?logo=debian&logoColor=white" alt=".deb">
-  <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT">
-  <img src="https://img.shields.io/badge/status-beta-orange" alt="beta">
+  <img src="https://img.shields.io/badge/solo-Linux-FCC624?logo=linux&logoColor=black" alt="Solo Linux">
+  <img src="https://img.shields.io/badge/paquete-.deb%20amd64-A81D33?logo=debian&logoColor=white" alt=".deb">
+  <img src="https://img.shields.io/badge/licencia-MIT-blue" alt="MIT">
+  <img src="https://img.shields.io/badge/estado-beta-orange" alt="beta">
   <a href="https://github.com/edwards-tech/Doctor-Linux-Repair-Tool/stargazers"><img src="https://img.shields.io/github/stars/edwards-tech/Doctor-Linux-Repair-Tool?style=social" alt="Stars"></a>
 </p>
 
 <p align="center">
-  <img src="docs/screenshot-home.png" width="900" alt="Главный экран Doctor Linux">
+  <img src="docs/screenshot-home.png" width="900" alt="Pantalla principal de Doctor Linux">
 </p>
 
-## О программе
+## Sobre el programa
 
-**Doctor Linux** работает **только на Linux**. Она сделана для того, чтобы обычный пользователь мог
-просто и быстро починить свои драйверы, посмотреть Wi‑Fi, проверить диск и подключить принтер —
-без терминала и без поиска по форумам. Простой режим — для всех, экспертный — для тех, кто хочет видеть всё.
+**Doctor Linux** funciona **solo en Linux**. Está hecho para que cualquier usuario pueda reparar sus
+controladores, revisar el Wi‑Fi, comprobar el disco y conectar una impresora de forma **simple y rápida**,
+sin terminal y sin buscar en foros. El modo simple es para todos; el modo experto, para quien quiere verlo todo.
 
-Сейчас программа выпускается **только для систем на базе Debian** в виде пакета **`.deb`** (amd64).
-Интерфейс на трёх языках: русский, español, English.
+Por ahora el programa se publica **solo para sistemas basados en Debian** como paquete **`.deb`** (amd64).
+Interfaz en tres idiomas: español, English, русский.
 
-## Что умеет
+## Qué puede hacer
 
 | | |
 |---|---|
-| 🔧 **Драйверы** | проверка всех устройств, поиск и установка недостающих драйверов, ремонт GRUB и пакетов |
-| 📶 **Wi‑Fi** | сигнал, скорость, пинг, тест скорости, сети рядом, советы, что делать |
-| 🖨️ **Принтеры и сканеры** | автоопределение по USB и Wi‑Fi, поиск драйвера по модели, установка и удаление, печать без драйвера, сканеры |
-| 💽 **Жёсткий диск** | заполнение, очистка, выборочное удаление, восстановление файлов, SMART |
-| 🖥️ **Полная характеристика компьютера** | процессор, память, видео, батарея, вентиляторы, температура |
+| 🔧 **Controladores** | revisa todos los dispositivos, busca e instala los controladores que faltan, repara GRUB y los paquetes |
+| 📶 **Wi‑Fi** | señal, velocidad, ping, prueba de velocidad, redes cercanas y consejos sobre qué hacer |
+| 🖨️ **Impresoras y escáneres** | detección automática por USB y Wi‑Fi, búsqueda del controlador por modelo, instalación y eliminación, impresión sin controlador, escáneres |
+| 💽 **Disco duro** | espacio usado, limpieza, borrado selectivo, recuperación de archivos, SMART |
+| 🖥️ **Características completas de la computadora** | procesador, memoria, video, batería, ventiladores, temperatura |
 
-## Совместимость
+## Compatibilidad
 
-Любой дистрибутив на базе Debian / Ubuntu:
+Cualquier distribución basada en Debian / Ubuntu:
 
 <p>
   <img src="https://img.shields.io/badge/Linux%20Mint-87CF3E?logo=linuxmint&logoColor=white" alt="Linux Mint">
@@ -56,39 +56,39 @@
   <img src="https://img.shields.io/badge/Lubuntu-0068C8?logo=lubuntu&logoColor=white" alt="Lubuntu">
   <img src="https://img.shields.io/badge/Pop!__OS-48B9C7?logo=popos&logoColor=white" alt="Pop!_OS">
   <img src="https://img.shields.io/badge/MX%20Linux-000000?logo=mxlinux&logoColor=white" alt="MX Linux">
-  <img src="https://img.shields.io/badge/и%20другие-555555?logo=linux&logoColor=white" alt="и другие">
+  <img src="https://img.shields.io/badge/y%20otras-555555?logo=linux&logoColor=white" alt="y otras">
 </p>
 
-## Установка
+## Instalación
 
-Скачайте `.deb` из раздела [Releases](https://github.com/edwards-tech/Doctor-Linux-Repair-Tool/releases) и установите:
+Descarga el `.deb` desde [Releases](https://github.com/edwards-tech/Doctor-Linux-Repair-Tool/releases) e instálalo:
 
 ```bash
 sudo apt install ./doctor-linux-repair-tool_2.4.0_amd64.deb
 ```
 
-Удаление:
+Para desinstalar:
 
 ```bash
 sudo apt remove doctor-linux-repair-tool
 ```
 
-## Поддержать проект
+## Apoya el proyecto
 
-Если программа помогла — поставьте ⭐ **звёздочку** репозиторию или поддержите автора донатом в крипте:
+Si el programa te ayudó, deja una ⭐ **estrella** en el repositorio o apoya al autor con una donación en cripto:
 
 **USDT (TRC‑20):** `TN5JmBVuutG48BcmfLqqB17Cf5YDdz1bw3`
 
-## Связь
+## Contacto
 
 - Telegram: [@edwards_lab](https://t.me/edwards_lab)
-- Ошибки, баги и идеи: decoder283@proton.me
+- Errores, fallos e ideas: decoder283@proton.me
 
-## Автор и лицензия
+## Autor y licencia
 
-**Автор программы: Eduard Nagaev.** Лицензия **MIT**.
+**Autor del programa: Eduard Nagaev.** Licencia **MIT**.
 
-При модификации программы или создании другой программы на её основе необходимо сохранять имя автора
-и текст лицензии MIT. Программа находится в стадии **beta** — используйте на свой риск.
+Si modificas el programa o creas otro basado en él, debes conservar el nombre del autor y el texto de la
+licencia MIT. El programa está en fase **beta**: úsalo bajo tu propio riesgo.
 
-<p align="center"><sub>Сделано с помощью искусственного интеллекта · Made with the help of AI</sub></p>
+<p align="center"><sub>Hecho con ayuda de inteligencia artificial · Made with the help of AI</sub></p>
